@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project data (never commit indexes or logs)
+data/
+chroma_db/
+*.log
+!tests/fixtures/*.log
+
+# Env
+.env
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
